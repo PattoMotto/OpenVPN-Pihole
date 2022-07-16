@@ -39,7 +39,7 @@ do
 done
 echo "Done"
 
-REGION=""
+REGION="sgp1"
 if [ -z "$REGION" ]
 then
     echo "REGION env var not set, defaulting to: nyc3"
